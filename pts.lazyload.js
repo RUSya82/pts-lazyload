@@ -13,6 +13,7 @@ class ptsLazyLoad {
         let that = this;
         $.each(this.dataLazyLoadingJS['data'], function (i, el) {
             that.lazyLoadingJS(i, $(el.area));
+            console.log(1)
         });
     }
     showMessage() {
