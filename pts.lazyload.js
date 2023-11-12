@@ -31,6 +31,7 @@ class ptsLazyLoad {
             range.selectNode(relEl);
             const child = range.createContextualFragment(tpl);
             return relEl.appendChild(child);
+            console.log(1)
         };
         const area = document.querySelector(counter.area) || document.querySelector('head');
         render(area, counter['html']);
